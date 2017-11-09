@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+/*  */
+table{
+	border: 1px solid black;
+	width: 80%;
+	height: 80%;
+	padding: 25px;
+	font-family:"Courier New", Courier, monospace; 
+	font-size:120%'
+}
+
+input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+	background-color:  rgb(51,153,255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{	
+	background-color:rgb(80,128,255);
+}
+
+a:hover {
+    font-size: 1.1em;
+}
