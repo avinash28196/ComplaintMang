@@ -1,0 +1,16 @@
+#Login Table
+
+CREATE TABLE login(username VARCHAR(10) PRIMARY KEY, 
+					password VARCHAR(10));
+
+INSERT INTO login values('rahul','ra@12');
+INSERT INTO login values('rohit','ro@12');
+INSERT INTO login values('rohan','rn@12');
+
+
+#Trainee Table
+
+CREATE TABLE trainee(traineeId NUMBER(10) PRIMARY KEY, 
+					traineeName VARCHAR(20), 
+					traineeCity VARCHAR(20), 
+					traineeDomain VARCHAR(20));
